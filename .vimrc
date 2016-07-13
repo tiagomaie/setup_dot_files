@@ -4,6 +4,7 @@
 " most lines taken from:
 "   http://dougblack.io/words/a-good-vimrc.html
 "   https://amix.dk/vim/vimrc.html
+"   https://www.shortcutfoo.com/blog/top-50-vim-configuration-options
 
 
 " COLORS AND FONTS
