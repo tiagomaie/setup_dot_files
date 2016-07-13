@@ -7,7 +7,7 @@
 
 
 " COLORS AND FONTS
-colorscheme evening         " awesome colorscheme
+colorscheme evening         " awesome color-scheme
 syntax enable           " enable syntax processing
 set encoding=utf8       " Set utf8 as standard encoding and en_US as the standard language
 set smarttab        " Be smart when using tabs ;)
@@ -26,9 +26,16 @@ filetype indent on      " load filetype-specific indent files
 set number      " show line numbers
 set cursorline          " highlight current line
 set showcmd             " show command in bottom bar
+set title "Set the window's title, reflecting the file currently being edited.
+set ruler "Always show cursor position
 
 " Searching {{{
 set ignorecase          " ignore case when searching
 set incsearch           " search as characters are entered
 set hlsearch            " highlight all matches
 " }}}
+
+" MISC
+set history=1000 "Increase the undo limit.
+set confirm "Display a confirmation dialog when closing an unsaved file.
+set spell "Enable spell-checking.
