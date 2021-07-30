@@ -1,2 +1,1 @@
-# vim
-My VIM related files
+# Bash, Tmux and Vim setup (+ plugins)
