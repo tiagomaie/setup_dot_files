@@ -156,3 +156,4 @@ let r_indent_ess_compatible = 0
 let R_assign = 2
 
 
+" Do ':PlugInstall' within Vim to install plugins
